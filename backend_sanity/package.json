@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "JavaScript Mastery",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start --host=172.23.36.254",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.35.5",
+    "@sanity/core": "^2.35.6",
+    "@sanity/default-layout": "^2.35.5",
+    "@sanity/default-login": "^2.35.5",
+    "@sanity/desk-tool": "^2.35.5",
+    "@sanity/vision": "^2.35.6",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
+}
